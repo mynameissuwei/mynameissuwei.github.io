@@ -79,16 +79,20 @@
 
 
 
-  <meta name="description" content="suwei blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Suwei Blog">
-<meta property="og:url" content="http://yoursite.com/page/3/index.html">
+  <meta name="description" content="前言:前端架构师必须掌握的知识。">
+<meta name="keywords" content="前端架构">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端架构师知识分享">
+<meta property="og:url" content="http://yoursite.com/2019/06/28/前端架构师知识分享/index.html">
 <meta property="og:site_name" content="Suwei Blog">
-<meta property="og:description" content="suwei blog">
+<meta property="og:description" content="前言:前端架构师必须掌握的知识。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2019/06/28/前端架构师知识分享/前端架构师/leader.png">
+<meta property="og:updated_time" content="2019-06-28T09:39:27.553Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Suwei Blog">
-<meta name="twitter:description" content="suwei blog">
+<meta name="twitter:title" content="前端架构师知识分享">
+<meta name="twitter:description" content="前言:前端架构师必须掌握的知识。">
+<meta name="twitter:image" content="http://yoursite.com/2019/06/28/前端架构师知识分享/前端架构师/leader.png">
 
 
 
@@ -96,7 +100,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/page/3/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/28/前端架构师知识分享/">
 
 
 
@@ -106,7 +110,7 @@
   };
 </script>
 
-  <title>Suwei Blog</title>
+  <title>前端架构师知识分享 | Suwei Blog</title>
   
 
 
@@ -2642,8 +2646,7 @@ embed {
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -2764,9 +2767,9 @@ embed {
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -2781,7 +2784,7 @@ embed {
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/06/主题音乐播放器/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/28/前端架构师知识分享/">
 
     <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Michael Su">
@@ -2798,10 +2801,8 @@ embed {
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/06/主题音乐播放器/" class="post-title-link" itemprop="url">主题音乐播放器</a>
+          <h1 class="post-title" itemprop="name headline">前端架构师知识分享
+
               
             
           </h1>
@@ -2826,7 +2827,7 @@ embed {
                 
               
 
-              <time title="创建时间：2019-04-06 22:46:51 / 修改时间：22:53:11" itemprop="dateCreated datePublished" datetime="2019-04-06T22:46:51+08:00">2019-04-06</time>
+              <time title="创建时间：2019-06-28 13:39:29 / 修改时间：17:39:27" itemprop="dateCreated datePublished" datetime="2019-06-28T13:39:29+08:00">2019-06-28</time>
             
 
             
@@ -2865,24 +2866,14 @@ embed {
       
 
       
-        
-          
-            <p>
-              为博客添加网页音乐播放器功能
-download点击访问Aplayer源码：GitHub Aplayer。下载到本地，解压后将dist文件夹复制到themes\next\source文件夹下。
-music.js新建themes\next\source\dist\music.js文件，添加内容：const ap = new APlayer({    container: document.g
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/06/主题音乐播放器/#more" rel="contents">
-                阅读全文 »
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
+        <p><img src="/2019/06/28/前端架构师知识分享/前端架构师/leader.png" alt="你想输入的替代文字"></p>
+<p>前言:前端架构师必须掌握的知识。<br><a id="more"></a><br>通过工具约束产出高质量的代码<br>    ESLint(JS 语法检测)。<br>        文件最大代码行数不能超过300。<br>        函数不能超过40行。<br>        ESlint和git操作相结合。<br>    cssLint(css 语法检测)<br>    命名规范(CodeSpellChecker)<br>    代码校验(CodeReview)<br>    TypeScript,Flow,Jest<br>    注释-好的代码质量不需要过多的注释.<br>    目录组织.<br>        -基于组件的目录结构。(推荐)<br>        -基于职责的目录结构。</p>
+<p>什么是组件呢？组件和模块的区别是什么？<br>    组件就是页面上的一部分。<br>    组件力度</p>
+<pre><code>组件的大小 --根据行数拆分
+组件间的通信 --数据统一管理
+你写一个页面开始写,如果发现超过300行,如果超过300行就开始拆组件.--根据行数拆分
+公用的组件用store管理。
+</code></pre>
       
     </div>
 
@@ -2903,331 +2894,36 @@ music.js新建themes\next\source\dist\music.js文件，添加内容：const ap =
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/06/Github搭建博客/">
-
-    <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Michael Su">
-      <meta itemprop="description" content="suwei blog">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Suwei Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/06/Github搭建博客/" class="post-title-link" itemprop="url">Github搭建博客</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-06 21:26:37" itemprop="dateCreated datePublished" datetime="2019-04-06T21:26:37+08:00">2019-04-06</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-05-04 23:11:05" itemprop="dateModified" datetime="2019-05-04T23:11:05+08:00">2019-05-04</time>
-              
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/前端架构/" rel="tag"># 前端架构</a>
           
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <p><img src="/2019/04/06/Github搭建博客/hexo.jpg" alt=""><br>前言:最近在别人的博客上面看见在首页摘要的时候显示图片和部分摘要很好看,今天我就来教大家如何做。<br>搭建这个博客走了许多弯路。在这里分享总结之后的思路和简化步骤。<br></p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/06/Github搭建博客/#more" rel="contents">
-                阅读全文 »
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/05/20/git工作命令/" rel="next" title="git工作命令">
+                <i class="fa fa-chevron-left"></i> git工作命令
               </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/06/加快页面加载速度/">
-
-    <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Michael Su">
-      <meta itemprop="description" content="suwei blog">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Suwei Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/06/加快页面加载速度/" class="post-title-link" itemprop="url">加速 Hexo 博客</a>
-              
             
-          </h1>
-        
+          </div>
 
-        <div class="post-meta">
-          <span class="post-time">
+          <span class="post-nav-divider"></span>
 
+          <div class="post-nav-prev post-nav-item">
             
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-06 21:06:39 / 修改时间：21:38:54" itemprop="dateCreated datePublished" datetime="2019-04-06T21:06:39+08:00">2019-04-06</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>
-              利用 InstantClick、hexo-service-worker、hexo-filter-optimize 让博客快如闪电 zap
-先体验：https://yixiuer.me/ ，然后操作 dolphin ~
-根据读者们反馈，使用后可能会有各种问题，如自己难以解决，请暂时先勿使用！
-InstantClick介绍请看官网：http://instantclick.io/ ，先下载压缩版的 in
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/06/加快页面加载速度/#more" rel="contents">
-                阅读全文 »
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -3237,172 +2933,15 @@ InstantClick介绍请看官网：http://instantclick.io/ ，先下载压缩版�
   </article>
 
 
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/06/我的第一篇博客/">
-
-    <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Michael Su">
-      <meta itemprop="description" content="suwei blog">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Suwei Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/06/我的第一篇博客/" class="post-title-link" itemprop="url">我的第一篇博客</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-06 15:28:01 / 修改时间：15:30:09" itemprop="dateCreated datePublished" datetime="2019-04-06T15:28:01+08:00">2019-04-06</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              
-  从今天起,我开始写博客了,用这篇文章记录一下！
-              
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/06/我的第一篇博客/#more" rel="contents">
-                阅读全文 »
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
-  </nav>
-
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -3701,6 +3240,10 @@ InstantClick介绍请看官网：http://instantclick.io/ ，先下载压缩版�
 
 
   
+  
+
+
+
 
   
 
@@ -3716,6 +3259,8 @@ InstantClick介绍请看官网：http://instantclick.io/ ，先下载压缩版�
 
   
 
+
+  
 
 
   
