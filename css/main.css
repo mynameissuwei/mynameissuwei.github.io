@@ -1768,7 +1768,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49ffc9;
+  background: #1f2003;
 }
 .feed-link,
 .chat {
@@ -2478,6 +2478,21 @@ embed {
   display: inline-block;
 }
 @media screen and (min-width: 1200px) {
+  body {
+    color: #fff;
+/* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite; */
+    font-family: 'Squada One', cursive;
+    font-size: 20px;
+/* background-image:url(/images/5.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:50% 50%;
+  background-size:cover */
+  }
   #footer a {
     color: #eee;
   }
