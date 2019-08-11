@@ -1768,7 +1768,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1f2003;
+  background: #ff7da4;
 }
 .feed-link,
 .chat {
@@ -2479,7 +2479,7 @@ embed {
 }
 @media screen and (min-width: 1200px) {
   body {
-    color: #fff;
+/* color: #fff; */
 /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
@@ -2487,6 +2487,7 @@ embed {
     animation: Gradient 15s ease infinite; */
     font-family: 'Squada One', cursive;
     font-size: 20px;
+    font-family: arial, helvetica;
 /* background-image:url(/images/5.jpg);
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -2501,5 +2502,5 @@ embed {
   margin-bottom: 100px;
   padding: 25px;
   box-shadow: 0 0 14px #cacbcb;
-  background: #fff;
+/* background: #fff; */
 }
